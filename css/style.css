@@ -10,9 +10,14 @@ body {
 	font-size: 13px;
 	line-height: 1.7em;
 	background-color: #fff;
-	background-image: url(../images/tooplate-body.jpg);
-	background-repeat: repeat-x;
-	background-position: top;
+}
+@media(min-width: 850px){
+	body{
+		
+		background-image: url(../images/tooplate-body.jpg);
+		background-repeat: repeat-x;
+		background-position: top;
+	}
 }
 
 a, a:link, a:visited {
@@ -128,18 +133,27 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #tooplate-body-wrapper {
 	width: 100%;
-	background: url(../images/tooplate-header.jpg) top center no-repeat;
 }
+@media(min-width: 850px){
+ #tooplate-body-wrapper{
+ 		background: url(../images/tooplate-header.jpg) top center no-repeat;
 
+ }
+}
 #tooplate-wrapper {
-	width: 960px;
+	max-width: 960px;
 	padding: 0 10px;
 	margin: 0 auto;
-	background: url(../images/tooplate-header.jpg) top center no-repeat;
+	background-color: #453020;
+}
+@media(min-width: 850px){
+	#tooplate-wrapper{
+		background: url(../images/tooplate-header.jpg) top center no-repeat;
+}
 }
 
 #tooplate-top-bar {
-	width: 960px;
+	max-width: 960px;
 	height: 40px;
 	padding: 5px 0;
 }
@@ -163,14 +177,20 @@ a.facebook { background: url(../images/facebook.png) center right no-repeat }
 a.social-btn:hover { color: #bd9213 }
 
 #tooplate-header {
-	width: 960px;
-	height: 80px;
+	max-width: 960px;
+	
 	padding: 10px 0;
 }
 
-#site-title {
-	float: left;
+@media (min-width: 852px){
+	#tooplate-header{
+		height: 80px;
+	}
+		#site-title{
+		float: left;
+	}
 }
+
 
 #site-title h1 {
 	margin: 0;
@@ -188,11 +208,13 @@ a.social-btn:hover { color: #bd9213 }
 
 /* menu */
 
+@media(min-width: 852px){
 #tooplate-menu {
 	float: right;
 	width: 625px;
 	height: 65px;
 	margin: 0 auto;
+}
 }
 
 #tooplate-menu ul {
@@ -207,10 +229,9 @@ a.social-btn:hover { color: #bd9213 }
 	display: inline;
 }
 
+
 #tooplate-menu ul li a {
-	float: left;
 	display: block;
-	width: 125px;
 	height: 35px;
 	padding: 30px 0 0 0;
 	font-size: 14px;
@@ -221,7 +242,12 @@ a.social-btn:hover { color: #bd9213 }
 	outline: none;
 	border: none;
 }
-
+@media(min-width: 850px){
+	#tooplate-menu ul li a{
+			float: left;
+			width: 125px;
+	}
+}
 #tooplate-menu ul li a:hover, #tooplate-menu ul .current {
 	color: #fff;
 	background: url(../images/tooplate-menu-hover.png) bottom center no-repeat;
@@ -232,18 +258,24 @@ a.social-btn:hover { color: #bd9213 }
 /* end of menu */
 
 #tooplate-middle {
+	max-width:100%;
 	clear: both;
-	width: 900px;
-	height: 240px;
 	padding: 37px 30px 51px 30px;
 	overflow: hidden;
 	background: url(../images/tooplate-middle.png) no-repeat;
 }
+@media(max-width: 850px){
+	#tooplate-middle{
+		background:none;
+	}
+}
+
+
+#tooplate-middle img{max-width: 100%}
 
 #tooplate-middle-subpage {
 	clear: both;
-	width: 960px;
-	height: 120px;
+	max-width: 100%;
 	padding: 15px 0;
 	margin-bottom: 20px;
 	background: url(../images/tooplate-divider.jpg) top repeat-x;
@@ -260,11 +292,11 @@ a.social-btn:hover { color: #bd9213 }
 
 #tooplate-main {
 	clear: both;
-	width: 960px;
+	max-width: 960px;
 	padding: 20px 0;
 }
 
-.col-w960 { width: 960px; margin-bottom: 40px }
+.col-w960 { max-width: 960px; margin-bottom: 40px }
 .col-w600 { width: 600px }
 .col-w450 { width: 450px }
 .col-w300 { width: 300px }
@@ -272,6 +304,13 @@ a.social-btn:hover { color: #bd9213 }
 .col-allw300 { width: 300px; float: left; margin-right: 30px }
 .col-last { margin: 0 }
 
+
+@media(max-width: 850px){
+	
+	.col-allw300{
+		color: white;
+	}
+}
 .fp-lp-box {
 	display: block;
 	clear: both;
@@ -436,7 +475,7 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #tooplate-footer {
-	width: 960px;
+	max-width: 960px;
 	padding: 30px 10px;
 	color: #8b773a;
 	margin: 0 auto;
@@ -448,7 +487,7 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #tooplate-copyright {
-	width: 960px;
+	max-width: 960px;
 	padding: 10px;
 	color: #39302b;
 	margin: 0 auto;
