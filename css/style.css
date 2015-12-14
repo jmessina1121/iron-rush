@@ -128,14 +128,14 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #tooplate-body-wrapper {
 	width: 100%;
-	background: url(../images/tooplate-header.jpg) top center no-repeat;
+	
 }
 
 #tooplate-wrapper {
 	width: 960px;
 	padding: 0 10px;
 	margin: 0 auto;
-	background: url(../images/tooplate-header.jpg) top center no-repeat;
+	
 }
 
 #tooplate-top-bar {
@@ -214,7 +214,7 @@ a.social-btn:hover { color: #bd9213 }
 	height: 35px;
 	padding: 30px 0 0 0;
 	font-size: 14px;
-	color: #bd9213;
+	
 	text-align: center;
 	text-decoration: none;
 	font-weight: 700;
@@ -223,7 +223,7 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #tooplate-menu ul li a:hover, #tooplate-menu ul .current {
-	color: #fff;
+	
 	background: url(../images/tooplate-menu-hover.png) bottom center no-repeat;
 }
 
@@ -246,16 +246,16 @@ a.social-btn:hover { color: #bd9213 }
 	height: 120px;
 	padding: 15px 0;
 	margin-bottom: 20px;
-	background: url(../images/tooplate-divider.jpg) top repeat-x;
+	
 }
 
 #tooplate-middle-subpage h2 {
-	color: #bd9213;
+	
 }
 
 #tooplate-middle-subpage p {
 	font-size: 18px;
-	color: #7f6d4e;
+	
 }
 
 #tooplate-main {
@@ -290,11 +290,11 @@ a.social-btn:hover { color: #bd9213 }
 	width: 100px;
 	height: 24px;
 	text-align: center;
-	background: url(../images/tooplate-lp-btn.png);
+	
 }
 
 .fp-lp-box  span a {
-	color: #fff;
+	
 }
 
 .post-box {
@@ -312,7 +312,7 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 .post-box p span.cat a {
-	color: #cb5c02;
+	
 	font-weight: 400;
 }
 
@@ -351,7 +351,7 @@ a.social-btn:hover { color: #bd9213 }
 	padding: 5px;
 	background: #fff;
 	border: 1px solid #ccc;
-	color: #333;
+	
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	margin-top: 5px;
@@ -362,7 +362,7 @@ a.social-btn:hover { color: #bd9213 }
 	width: 100px;
 	margin-right: 10px;
 	font-size: 14px;
-	color: #333;
+	
 }
 
 #contact-form form textarea {
@@ -371,7 +371,7 @@ a.social-btn:hover { color: #bd9213 }
 	background: #fff;
 	border: 1px solid #ccc;
 	padding: 5px;
-	color: #333;
+	
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	margin-top: 5px;
@@ -427,12 +427,12 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #gallery ul li span a {
-	color: #fff;
+	
 }
 
 #tooplate-footer-wrapper {
 	width: 100%;
-	background: #1f1b1a;
+	
 }
 
 #tooplate-footer {
@@ -444,7 +444,7 @@ a.social-btn:hover { color: #bd9213 }
 
 #tooplate-copyright-wrapper {
 	width: 100%;
-	background: #000000;
+	
 }
 
 #tooplate-copyright {
